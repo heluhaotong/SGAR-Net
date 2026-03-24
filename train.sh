@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=${1} python train.py --dataset refcoco --ngpu 2 --batch_size 14 --time 17 --savename savename
